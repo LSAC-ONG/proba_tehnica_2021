@@ -116,7 +116,7 @@ Userii sunt persoanele care isi fac cont pe siteurile noastre. In cazul acestui 
     - In caz ca bodyul nu urmareste structura definita se va returna un raspuns cu __Statusul 400__
 
 - `DELETE /users/{id}` - stergerea unei entitati
-    - Requestul va sterge entitatea `Contact Request` care are id-ul egal cu parametrul `id` dat
+    - Requestul va sterge entitatea `User` care are id-ul egal cu parametrul `id` dat
     - In caz ca nu exista entitatea cu id-ul dat se va returna un raspuns cu __Statusul 404__
 
 ## BONUS
