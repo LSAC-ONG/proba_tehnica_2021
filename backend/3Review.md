@@ -76,7 +76,7 @@ Aceste tipuri de relatii sunt implementate diferit in functie de tipul de baze d
     - Requestul va sterge entitatea `Review` care are id-ul egal cu parametrul `id` dat
     - In caz ca nu exista entitatea cu id-ul dat se va returna un raspuns cu __Statusul 404__
 
-## De Imbunatatit
+## BONUS
 
 - Reviewurile pot fi create numai de useri care sunt autentificati, iar campul `user_id` va fi completat de voi cu id-ul userului care a facut requestul
 - Sa se implementeze o validare care verifica ca requesturile de tip `PATCH` si `DELETE` vor putea modifica numai reviewuri care sunt legate de userul care face requestul

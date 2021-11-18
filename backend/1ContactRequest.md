@@ -98,7 +98,7 @@ Contact Request reprezinta o entitate care stocheaza date despre cererile de con
     - Requestul va sterge entitatea `Contact Request` care are id-ul egal cu parametrul `id` dat
     - In caz ca nu exista entitatea cu id-ul dat se va returna un raspuns cu __Statusul 404__
 
-## De Imbunatatit
+## BONUS
 
 - Cand se primeste un request de tipul `POST /contact-requests` se va trimite un email cu datele primite (Numele si adresa de email a persoanei care face cereare si mesajul acesteia) la o adresa de email aleasa de voi
 - Se va implementa un sistem de sortare. Requestul `GET /contact-requests` poate sa primeasca query parameterii: `sortBy`, care va avea valoarea unui camp al entitatii, si `order` care va putea avea valoarea `ASC` pentru ascendent sau `DESC` pentru descendent

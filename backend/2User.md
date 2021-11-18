@@ -119,7 +119,7 @@ Userii sunt persoanele care isi fac cont pe siteurile noastre. In cazul acestui 
     - Requestul va sterge entitatea `Contact Request` care are id-ul egal cu parametrul `id` dat
     - In caz ca nu exista entitatea cu id-ul dat se va returna un raspuns cu __Statusul 404__
 
-## De Imbunatatit
+## BONUS
 
 - Parola ar trebui sa aiba minim 8 caractere
 - Parola nu va fi stocata in plain-text in baza de date

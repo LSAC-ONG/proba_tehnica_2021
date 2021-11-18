@@ -80,7 +80,7 @@ Entitatea `Tutoring Class` reprezinta o meditatie. Aceasta este legate de un pro
     - Requestul va sterge entitatea `Tutoring Class` care are id-ul egal cu parametrul `id` dat
     - In caz ca nu exista entitatea cu id-ul dat se va returna un raspuns cu __Statusul 404__
 
-## De Imbunatatit
+## BONUS
 
 - Sa se implementeze o validare care verifica ca requesturile de tip `PATCH` si `DELETE` vor putea modifica numai meditatii care sunt legate de userul care face requestul
     - Exemplu: `meditatia 10` e detinuta de `userul 1`, `meditatia 20` e detinuta de `userul 2`, `userul 1` va putea face requesturi `PATCH` si `DELETE` la `meditatia 10`, dar nu le va putea face la `meditatia 20`
