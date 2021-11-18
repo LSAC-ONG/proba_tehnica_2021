@@ -15,7 +15,7 @@ Userii sunt persoanele care isi fac cont pe siteurile noastre. In cazul acestui 
     - Emailul persoanei care face cererea
     - Un sir de caractere care nu depaseste 50 de caractere
     - Trebuie sa se verifice ca sirul de caractere reprezinta o adresa de email (se va verifica ca este de format xxx@xxx.xxx, numarul de x-uri este inamplator)
-    - Trebuie sa se verifice ca mailul unui student trebuie sa se termina in `@stud.upb.ro`, iar mailul unui profesor se termina in `@onmicrosof.upb.ro`
+    - Trebuie sa se verifice ca mailul unui student trebuie sa se termina in `@stud.upb.ro`, iar mailul unui profesor se termina in `@onmicrosoft.upb.ro`
         - Hint: regex sau validator libraries
     - Adresa de email ar trebui sa fie unica in cadrul entitatilor `User`
 - password
