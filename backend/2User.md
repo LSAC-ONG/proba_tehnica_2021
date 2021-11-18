@@ -32,7 +32,7 @@ Userii sunt persoanele care isi fac cont pe siteurile noastre. In cazul acestui 
     - Body-ul requestului pe care il veti primi va avea urmatoarea structura
     ```json
     {
-        "email": "teacher@onmicrosof.upb.ro",
+        "email": "teacher@onmicrosoft.upb.ro",
         "firstname": "Mihai",
         "lastname": "Popescu",
         "password": "teacher1",
@@ -48,7 +48,7 @@ Userii sunt persoanele care isi fac cont pe siteurile noastre. In cazul acestui 
     - Body-ul requestului pe care il veti primi va avea urmatoarea structura
     ```json
     {
-        "email": "teacher@onmicrosof.upb.ro",
+        "email": "teacher@onmicrosoft.upb.ro",
         "password": "teacher1"
     }
     ```
@@ -63,14 +63,14 @@ Userii sunt persoanele care isi fac cont pe siteurile noastre. In cazul acestui 
     [
         {
             "id": 1,
-            "email": "teacher@onmicrosof.upb.ro",
+            "email": "teacher@onmicrosoft.upb.ro",
             "firstname": "Mihai",
             "lastname": "Popescu",
             "role": ... // rolurile pot fi implementate in mai multe moduri (care ar modifica structura responseului), din acest motiv nu am scris nicio valoare
         },
         {
             "id": 2,
-            "email": "student@onmicrosof.upb.ro",
+            "email": "student@stud.upb.ro",
             "firstname": "Andrei",
             "lastname": "Mira",
             "role": ...
