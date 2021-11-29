@@ -27,8 +27,8 @@ Userii sunt persoanele care isi fac cont pe siteurile noastre. In cazul acestui 
 ## Endpoints
 
 - `POST /auth/register` - crearea unei user
-    - Requestul va genera un nou user in baza de date in functie de campul `title` primit in body-ul requestului
-        - `title` poate avea doar valorile `student` sau `teacher`
+    - Requestul va genera un nou user in baza de date in functie de campul `role` primit in body-ul requestului
+        - `role` poate avea doar valorile `student` sau `teacher`
     - Body-ul requestului pe care il veti primi va avea urmatoarea structura
     ```json
     {
