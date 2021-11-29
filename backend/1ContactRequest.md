@@ -104,4 +104,4 @@ Contact Request reprezinta o entitate care stocheaza date despre cererile de con
 - Se va implementa un sistem de sortare. Requestul `GET /contact-requests` poate sa primeasca query parameterii: `sortBy`, care va avea valoarea unui camp al entitatii, si `order` care va putea avea valoarea `ASC` pentru ascendent sau `DESC` pentru descendent
     - Excemplu de request: `GET /contact-requests?sortBy=email&order=ASC` va returna toate entitatile `Contact Request` ordonate crescator dupa `email`.
 - Se va implementa un sistem de filtrare. Se va folosi query parameterul `filterBy` care va avea ca valoare text in format json care are structura: `"camp_entitate1":"valoare1"`
-    - Exemplu de request: `GET /contact-requests?filterBy={"email":"dragos@yahoo.com","is_verified":false}` va returna toate entitatile `Contact Request` care au campul `email` egal cu `dragos@yahoo.com` si campul `is_verified` egal cu `false`
+    - Exemplu de request: `GET /contact-requests?filterBy={"email":"dragos@yahoo.com","is_verified":false}` va returna toate entitatile `Contact Request` care au campul `email` egal cu `dragos@yahoo.com` si campul `is_resolved` egal cu `false`
